@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joshua Cheng</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="icon" type="image/png" href="JC.png">
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest"> -->
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/Joshua.svg" alt="Homepage">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#works">Works</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+
+        <!-- # intro
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+                    
+                    <div class="s-intro__content-text">
+
+                        <div class="s-intro__content-pretitle text-pretitle">Hello</div>
+                        <h1 class="s-intro__content-title">
+                        I'm Joshua Cheng</h1> 
+                        <br>
+                        <h3 class="s-intro__content-subtitle">a music composer, <br>
+                        a session musician, <br>
+                        a music teacher.
+                        </h3>                            
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">More About Me</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Get In Touch</a>
+                        </div> <!-- s-intro__content-btns -->   
+
+                    </div> <!-- s-intro__content-text -->                     
+                    
+                </div> <!-- s-intro__content-inner -->  
+            </div> <!-- s-intro__content -->
+
+            <ul class="s-intro__social social-list">
+                <li>
+                    <a href="https://www.instagram.com/cheng.joshua/" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="white" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2"/>
+                            <circle cx="18" cy="6" r="1" fill="white"/>
+                          </svg>
+                        <span class="u-screen-reader-text">Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/joshua.cheng.944" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="rgba(0, 0, 0, 1)">
+                            <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h11.495V14.708h-3.13v-3.622h3.13V8.413c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.463.099 2.796.143v3.24h-1.918c-1.505 0-1.796.715-1.796 1.763v2.312h3.592l-.467 3.622h-3.125V24h6.127C23.407 24 24 23.407 24 22.676V1.325C24 .593 23.407 0 22.675 0z"/>
+                          </svg>                                                                                                           
+                        <span class="u-screen-reader-text">Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/joshua-cheng-b14655125/" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="rgba(0, 0, 0, 1)"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.025-3.038-1.854-3.038-1.857 0-2.141 1.45-2.141 2.947v5.66H9.344V9h3.414v1.561h.049c.476-.9 1.637-1.854 3.369-1.854 3.604 0 4.268 2.37 4.268 5.455v6.29zM5.337 7.433c-1.144 0-2.07-.926-2.07-2.07 0-1.144.926-2.07 2.07-2.07 1.144 0 2.07.926 2.07 2.07 0 1.144-.926 2.07-2.07 2.07zM6.987 20.452H3.687V9h3.3v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.727v20.546C0 23.227.792 24 1.771 24h20.451C23.208 24 24 23.227 24 22.273V1.727C24 .774 23.208 0 22.225 0z"/></svg>
+                        <span class="u-screen-reader-text">LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCDn_E_sJCcV4kS2jR6MMblg" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M23.499,6.203c-0.272-1.019-1.071-1.82-2.09-2.09C19.681,3.5,12,3.5,12,3.5s-7.681,0-9.41,0.613 c-1.019,0.272-1.82,1.071-2.09,2.09C0.887,7.932,0.887,12,0.887,12s0,4.068,0.613,5.797c0.272,1.019,1.071,1.82,2.09,2.09 C4.319,20.5,12,20.5,12,20.5s7.681,0,9.41-0.613c1.019-0.272,1.82-1.071,2.09-2.09C23.499,16.068,23.499,12,23.499,12 S23.499,7.932,23.499,6.203z M9.75,15.5v-7l6.5,3.5L9.75,15.5z"></path></svg>
+                        <span class="u-screen-reader-text">YouTube</span>
+                    </a>
+                </li>
+
+            </ul> <!-- end s-intro__social -->
+
+            <div class="s-intro__content-media">                               
+                <img src="images/main_portrait.JPG.jpg" srcset="images/main_portrait.jpg 1x, images/main_portrait.jpg 2x" alt="">
+            </div> <!-- s-intro__content-media -->                
+
+            <div class="s-intro__btn-download">
+                <a class="btn btn--stroke" href="files/Joshua Cheng Music CV.pdf" download="Joshua Cheng Music CV.pdf" target="_blank" rel="noopener noreferrer">Get My CV</a>
+            </div> <!-- end s-intro__btn-download -->
+            
+            <div class="s-intro__scroll-down">
+                <a href="#about" class="smoothscroll">
+                    <div class="scroll-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </div>
+                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+                </a>
+            </div> <!-- s-intro__scroll-down -->
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">About Me.</h2>
+                    </div> <!-- end section-header -->
+
+                    <p class="attention-getter">
+                    Joshua Cheng is based in the heart of Kuala Lumpur, Malaysia. Starting his music journey after winning the consolation prize in a talent competition organised by his primary school, Joshua has learnt music for 8 years. Since then, Joshua picked up on skills and techniques for many band instruments alongside classical piano. Currently pursuing a Bachelor's Degree in Contemporary Music in UCSI University, Joshua majors in Contemporary Composition under the guidance of Ms. Lim Hoong Bee.</p>
+
+                    <p class="attention-getter">
+                        Joshua has explored performing and writing varying music genres ranging from pop, ballad, jazz, lofi and EDM. Putting together musical elements and rearranging sections to add spice into existing songs, Joshua is determined to let his listeners hear a new sound. Striving to become a versatile artist, Joshua aspires to take on any challenge in the musical field to expand and push himself to become a better all-rounder musician. Joshua's mission is to write songs that will resonate and bring a positive and uplifting message to his audience.</p>
+
+                    <div class="grid-list-items s-about__blocks">
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Experience</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    Pianist
+                                    <span>Guitar Store Recital 18 Nov 2022</span>
+                                </li>
+                                <li>
+                                    Pianist
+                                    <span>Scopo nella Vita Recital 27 Nov 2022</span>
+                                </li>
+                                <li>
+                                    Pianist
+                                    <span>Student Recital 18 Oct 2022 </span>
+                                </li>
+                                <li>
+                                    Choir
+                                    <span>World Choralympic 2022</span>
+                                </li>
+                                <li>
+                                    CNY MV Music Production Lead
+                                    <span>Funshh Asia January 2023</span>
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Awards</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="#0">
+                                        World Choralympic 2022
+                                        <span>Silver Category</span>
+                                    </a>                                        
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        ABRSM Grade 5 Classical Piano
+                                        <span>Distinction</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        ABRSM Grade 5 Theory
+                                        <span>Distinction</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Trinity Grade 4 Pop Vocals 
+                                        <span>Credit</span>
+                                    </a>
+                                </li><li>
+                                    <a href="#0">
+                                        Malaysian Choral Eisteddfod 2018
+                                        <span>Silver B Category</span>
+                                    </a>                                        
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+                        
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Skills</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    Music Composition
+                                </li>
+                                <li>
+                                    Music Production
+                                </li>
+                                <li>
+                                    Music Recording
+                                </li>
+                                <li>
+                                    Music Performance
+                                </li>
+                                <li>
+                                    Music Copying
+                                </li>
+                                <li>
+                                    Music Teaching
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->   
+
+        <!-- # composition
+        ================================================== -->
+        <section id="compositions" class="s-compositions target-section">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="02">
+                        <h2 class="text-display-title">Compositions.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row compositions-grid">
+
+                <!-- Composition 1 -->
+                <div class="column xl-6 lg-12 composition-item">
+                    <div class="composition">
+                        <img class="composition-image" src="images/composition/arranging_masterclass_23.jpg" alt="Composition 4">
+                        <h4 class="composition-title">WVC Arranging Masterclass '23</h4>
+                        <p class="composition-description">
+                            Rearranged a Malay classic tune “Balik Kampung” with Ee Yueh and received feedback and suggestions from the WVC Band. 
+                        </p>
+                    </div>
+                </div> <!-- end composition-item -->
+
+                <!-- Composition 2 -->
+                <div class="column xl-6 lg-12 composition-item">
+                    <div class="composition">
+                        <img class="composition-image" src="images/composition/composer_showcase_23.jpg" alt="Composition 2">
+                        <h4 class="composition-title">Composer's Orchestra Showcase '23</h4>
+                        <p class="composition-description">
+                            Performed my song “隔离一米的心房” live at Recital Hall, UCSI University Block G.
+                        </p>
+                    </div>
+                </div> <!-- end composition-item -->
+
+                <!-- Composition 3 -->
+                <div class="column xl-6 lg-12 composition-item">
+                    <div class="composition">
+                        <img class="composition-image" src="images/composition/composition_masterclass_24.JPG" alt="Composition 1">
+                        <h4 class="composition-title">Pekka Pylkkänen’s Composition Masterclass '24</h4>
+                        <p class="composition-description">
+                            Showcased my song “Dogfight” and received valuable advice from Mr Pylkkänen.
+                        </p>
+                    </div>
+                </div> <!-- end composition-item -->
+
+                <!-- Composition 4 -->
+                <div class="column xl-6 lg-12 composition-item">
+                    <div class="composition">
+                        <img class="composition-image" src="images/composition/ucsi_song_competition_24.jpg" alt="Composition 3">
+                        <h4 class="composition-title">UCSI Song Competition '24</h4>
+                        <p class="composition-description">
+                            Won the Second Runner’s Up Prize with Ee Yueh. 
+                        </p>
+                    </div>
+                </div> <!-- end composition-item -->
+
+            </div> <!-- end compositions-grid -->
+
+        </section> <!-- end s-compositions -->        
+
+
+        <!-- # performances
+        ================================================== -->
+        <section id="works" class="s-works target-section">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="03">
+                        <h2 class="text-display-title">Performances.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <!-- Main Performances Highlights -->
+            <div class="row folio-entries">
+
+                <!-- First Performance -->
+                <div class="column entry">
+                    <a href="images/folio/gallery/scopo_nella_vita_concert.jpg" class="entry__link glightbox" data-glightbox="title: Scopo Nella Vita Concert '22; description: .entry__desc-01">
+                        <div class="entry__thumb">
+                            <img src="images/folio/scopo_nella_vita_concert.jpg" srcset="images/folio/scopo_nella_vita_concert.jpg 1x, images/folio/scopo_nella_vita_concert@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Scopo Nella Vita Concert '22</h4>
+                            <div class="entry__cat">Pianist</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-01">
+                        <p>
+                            Performed as a pianist for my sister’s concert
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <!-- Second Performance -->
+                <div class="column entry">
+                    <a href="images/folio/gallery/tgs_recital_sept23.jpg" class="entry__link glightbox" data-glightbox="title: TGS Recital Sept '23'; description: .entry__desc-05">
+                        <div class="entry__thumb">
+                            <img src="images/folio/tgs_recital_sept23.jpg" srcset="images/folio/tgs_recital_sept23.jpg 1x, images/folio/tgs_recital_sept23@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">TGS Recital Sept '23</h4>
+                            <div class="entry__cat">Band Leader</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-05">
+                        <p>
+                        Band leader and keyboardist of my band.
+                        Also played as guest bassist.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <!-- Third Performance -->
+                <div class="column entry">
+                    <a href="images/folio/gallery/sister_wedding.jpg" class="entry__link glightbox" data-glightbox="title: Sister's Wedding '24; description: .entry__desc-04">
+                        <div class="entry__thumb">
+                            <img src="images/folio/sister_wedding.JPG." srcset="images/folio/sister_wedding.jpg 1x, images/folio/sister_wedding@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Sister's Wedding '24</h4>
+                            <div class="entry__cat">Pianist</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-04">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <!-- Fourth Performance -->
+                <div class="column entry">
+                    <a href="images/folio/gallery/red_and_soon_concert_24.jpg" class="entry__link glightbox" data-glightbox="title: Red and Soon Concert '24'; description: .entry__desc-06">
+                        <div class="entry__thumb">
+                            <img src="images/folio/red_and_soon_concert_24.jpg" srcset="images/folio/red_and_soon_concert_24.jpg 1x, images/folio/red_and_soon_concert_24@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Red and Soon's Concert '24</h4>
+                            <div class="entry__cat">Frontend Design</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-06">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry --> 
+
+            </div> <!-- folio entries -->
+
+            <!-- Performance Timeline -->
+            <section id="other-performances" class="timeline-section">
+                <div class="timeline-header">
+                    <h2>Performance Timeline</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <p class="timeline-desc">Red & Soon’s Concert</p>
+                            <p class="timeline-desc">Sister’s Wedding</p>
+                            <p class="timeline-desc">UCSI Orientation Day</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023</div>
+                        <div class="timeline-content">
+                            <p class="timeline-desc">Global RCE Conference</p>
+                            <p class="timeline-desc">TGS Recital June</p>
+                            <p class="timeline-desc">TGS Recital Sept</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <p class="timeline-desc">Mirror Bar</p>
+                            <p class="timeline-desc">UCSI Green Tea Musical</p>
+                            <p class="timeline-desc">Mid Autumn Performance</p>
+                            <p class="timeline-desc">Scopo nella Vita Concert</p>
+                            <p class="timeline-desc">TGS Recital Dec</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2015</div>
+                        <div class="timeline-content">
+                            <p class="timeline-desc">Let the Music Play</p>
+                            <p class="timeline-desc">Little Mermaid Concert</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Other Music -->
+            <div class="row s-testimonials">
+                <div class="column xl-12">
+
+                    <h3 class="s-testimonials__header">Some of my Music</h3>
+    
+                    <div class="swiper-container s-testimonials__slider">
+    
+                        <div class="swiper-wrapper">
+
+                            <!--1st Song-->
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <div class="s-testimonials__video-container">
+                                        <iframe class="s-testimonials__video"
+                                            src="https://www.youtube.com/embed/Yi7dYwLw9x8?si=ro37I69ZDQQ32Qte" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                            referrerpolicy="strict-origin-when-cross-origin" 
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Daydream</strong>
+                                        <span>Joshua Cheng ft. Carmen Tan</span>
+                                    </cite>
+                                </div>
+                                <p class="testimonial__desc">
+                                    "Daydream" illustrates one of the most exciting stages of life: teenagehood. As teenagers, we all used to daydream a lot, 
+                                    I mean, A LOT. Sometimes, however, we get too caught up with the fantasy in our minds that we lose track and sight of 
+                                    what is in the moment and the reality of life. Eventually, we would have to snap back to reality and find ourselves facing 
+                                    life...
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <!--2nd Song-->
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <div class="s-testimonials__video-container">
+                                        <iframe class="s-testimonials__video"
+                                            src="https://www.youtube.com/embed/DzXnQTQEo2Q?si=A9X1s0SdWro9Xtnl" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                            referrerpolicy="strict-origin-when-cross-origin" 
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Are You Happy?</strong>
+                                        <span>Joshua Cheng</span>
+                                    </cite>
+                                </div>
+                                <p class="testimonial__desc">
+                                    In this world, we always seek to be happy, fulfilled and live out the best of our lives. We begin to find ourselves in 
+                                    this loop of constantly searching for happiness and enjoyment through materialism or fame in this world. But we may not 
+                                    realize that we lose out on some simple things in life such as creating moments with our friends, and ultimately what 
+                                    we are purposed to do here on earth. 
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+                            
+                            <!--3rd Song-->
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <div class="s-testimonials__video-container">
+                                        <iframe class="s-testimonials__video" 
+                                            src="https://www.youtube.com/embed/0oAnjfOOE7Q?si=xEVXqdSBKKNXfiDW" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                            referrerpolicy="strict-origin-when-cross-origin" 
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <cite class="s-testimonials__cite">
+                                        <strong>By Your Side</strong>
+                                        <span>Joshua Cheng</span>
+                                    </cite>
+                                </div>
+                                <p class="testimonial__desc">
+                                    This song was inspired at one of the peak moments of the COVID-19 pandemic when everything seemed to be bleak and all 
+                                    hopes were lost. I wanted to bring a positive message that everything will be alright and turn for the good in its timing. 
+                                    When there seems to be no one caring or understanding your situation, in reality, there will always be someone there, 
+                                    waiting for you, and embracing you through the storms and turbulence.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+    
+                            <!--4th Song-->
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <div class="s-testimonials__video-container">
+                                        <iframe class="s-testimonials__video" 
+                                            src="https://www.youtube.com/embed/Lt3WxE6eL8g?si=CV_gSS6WuaZSYxtA" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                            referrerpolicy="strict-origin-when-cross-origin" 
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Be Free, Be You</strong>
+                                        <span>Joshua Cheng</span>
+                                    </cite>
+                                </div>
+                                <p class="testimonial__desc">
+                                    I've heard that a lot of times people say to me that "in society, you have to fake it to make it". I found myself 
+                                    subscribing to the same ideology, and never truly enjoyed what I wanted to do at the moment at any given place. 
+                                    There was a yearning in my heart that tells me it's okay to be yourself, no matter what people think, and ever since 
+                                    then I told myself that I do not want people to see a facade of me, but truly see me for who I am.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+
+                            <!--5th Song-->
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <div class="s-testimonials__video-container">
+                                        <iframe class="s-testimonials__video" 
+                                            src="https://www.youtube.com/embed/UTuk7xOyQX8?si=ZD1ICqGT_HI75ges" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                            referrerpolicy="strict-origin-when-cross-origin" 
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <cite class="s-testimonials__cite">
+                                        <strong>To The Moon and Back</strong>
+                                        <span>Joshua Cheng ft. Jaslyn Ng (Guitar)</span>
+                                    </cite>
+                                </div>
+                                <p class="testimonial__desc">
+                                    This Bossa tune depicts a story of a man wanting to be together with the woman he was in love with, and how badly 
+                                    he wanted her for himself. I decided to try something unusual for my jury/exam with a whole different direction of 
+                                    making music for fun. Hope all my listeners enjoy this tune!
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+        
+                        </div> <!-- end swiper-wrapper -->
+    
+                        <div class="swiper-pagination"></div>
+    
+                    </div> <!-- end swiper-container -->
+    
+                </div> <!-- end column -->
+            </div> <!-- end s-testimonials -->
+
+        </section> <!-- end s-works --> 
+
+
+        <!-- # numbers
+        ================================================== -->
+        <!--
+        <section id="numbers" class="s-numbers">
+
+            <div class="row counter-items">
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        80
+                        <span>+</span>
+                    </div>
+                    <h5>Happy Customers</h5>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Vel harum magni quae voluptate error quo repellendus inventore 
+                    laborum ex veniam. 
+                    </p>
+                </div> 
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        120
+                        <span>+</span>
+                    </div>
+                    <h5>Projects Completed</h5>
+                    <p>
+                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. 
+                    Fusce vel dui. In ac felis 
+                    quis tortor malesuada pretium
+                    </p>
+                </div> 
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        23k
+                        <span>+</span>
+                    </div>
+                    <h5>Lines of Code</h5>
+                    <p>
+                    Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                    Nisi eaque consequatur. Voluptatem dignissimos ut ducimus
+                    </p>
+                </div> 
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        85
+                        <span>+</span>
+                    </div>
+                    <h5>Positive Feedback</h5>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum magni quae voluptate error 
+                    quo repellendus inventore laborum ex veniam.
+                    </p>
+                </div> 
+
+            </div>  
+
+        </section> --> 
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" data-num="04">
+                        <h2 class="text-display-title">Get In Touch.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-footer__content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                    <p class="attention-getter">
+                    Passionate about music, creativity, and storytelling through sound. Let’s collaborate!
+                    </p>               
+                </div> <!-- end section-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+                    <div class="row">
+                        <div class="column xl-4 lg-5 md-6 tab-12">
+                            <h5>Follow Me</h5>
+                            <ul class="link-list">
+                                <li><a href="https://www.instagram.com/cheng.joshua/" target="blank">Instagram</a></li>
+                                <li><a href="https://www.facebook.com/joshua.cheng.944" target="blank">Facebook</a></li>
+                                <li><a href="https://www.linkedin.com/in/joshua-cheng-b14655125/" target="blank">LinkedIn</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCDn_E_sJCcV4kS2jR6MMblg" target="blank">YouTube</a></li>
+                            </ul>
+                        </div>
+                        <div class="column xl-6 md-6 tab-12">
+                            <h5>Contact Me</h5>
+                            <ul class="link-list">
+                                <li><a href="mailto:#0">joshuacheng17@gmail.com</a></li>
+                                <li><a href="tel:+1975432345">+60 12-321 2617</a></li>
+                            </ul> 
+                        </div>
+                    </div>                    
+                </div> <!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
+
+
+            <div class="row s-footer__buttons">
+               
+                <div class="column xl-6 tab-12">
+                    <a href="mailto:joshuacheng17@gmail.com" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
+                </div>
+          
+                <div class="column xl-6 tab-12">                    
+                    <a href="files/Joshua Cheng Music CV.pdf" download="Joshua Cheng Music CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
+                </div>
+            
+            </div> <!-- end section-footer__buttons -->              
+            
+            <div class="row s-footer__bottom">
+                
+                <div class="column xl-6 lg-12">
+                    <!--<ul class="s-footer__social social-list">
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                                <span class="u-screen-reader-text">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                                <span class="u-screen-reader-text">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                                <span class="u-screen-reader-text">Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path></svg>
+                                <span class="u-screen-reader-text">Dribbble</span>
+                            </a>
+                        </li>
+                    </ul> -->
+                </div> 
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright Joshua Cheng 2025</span> 
+                        <span>Design by Joseph Lim</a></span>
+                    </p>
+                </div>
+
+            </div> <!-- end section-footer__bottom -->          
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>Back To Top</span>   
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
